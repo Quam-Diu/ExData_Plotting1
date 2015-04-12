@@ -2,12 +2,12 @@ plot2 <- function(){
         ## A) Parameters
         ## This script has no parameters
         
-        ## Required libraries
-        ## library(dplyr)
-        ## library(lubridate)
-        
         ## B) Objetive
-        ## To produce histogram of the active power of a set of dates and save it to a png file
+        ## To produce a line plot of the active power of a set of dates and save it to a png file
+        ## The data is supposed to be in a directory called /data, but if the file is missing a message is printed
+        ## Also, to run properly, the following libraries should be installed and loaded
+        ##      - library(dplyr)
+        ##      - library(lubridate)
         ## See Readme for more details
         
         ## C) Procedure
